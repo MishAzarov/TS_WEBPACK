@@ -1,0 +1,57 @@
+.cell
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 0.5px solid black;
+    z-index: 0;
+}
+
+.row
+{
+    display: flex;
+    height: 50px;
+}
+
+.person
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rebeccapurple;
+    z-index: 2;
+}
+
+.home
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: saddlebrown;
+    z-index: 2;
+}
+
+.carrot
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    z-index: 2;
+}
+
+.message
+{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    visibility: hidden;
+}
+
+.main
+{
+    display: flex;
+}
